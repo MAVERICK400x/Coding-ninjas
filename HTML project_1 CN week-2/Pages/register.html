@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <a href="index.html"><img src="../Multimedia/new_cn_logo.svg " alt="Coding Ninjas Logo"></a>
+
+    <h1>Create an Account</h1>
+    </header>
+    <main>
+        <section id="login">
+            <form action="#" method="post"> <!-- Update this action with your actual endpoint -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <br>
+                    <label for="username">Full Name:</label>
+                    <input type="text" name="username" id="username" required>
+                    <br><br> <!-- Line break for spacing -->
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br><br/> <!-- Line break for spacing -->
+                    <label for="username">Full Name:</label>
+                    <input type="text" name="username" id="username" required>
+                    <br><br> <!-- Line break for spacing -->
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    <br><br/> <!-- Line break for spacing -->
+                    <label for="usertype">User Type:</label>
+                    <select name="usertype" id="usertype">
+                        <option value="" disabled>Select user type</option>
+                        <option value="teacher">Instructor</option>
+                        <option value="student">Student</option>
+                    </select>
+                    <br><br/> <!-- Line break for spacing -->
+                    <label for="courses">Select Course:</label>
+                    <select name="courses" id="courses">
+                        <option value="course1">Course-1 - Web Development</option>
+                        <option value="course2">Course-2 - Data Science Fundamentals</option>
+                        <option value="course3">Course-3 - Digital Marketing Mastery</option>
+                        <option value="course4">Course-4 - Android Development</option>
+                    </select>
+                    <br><br/> <!-- Line break for spacing -->
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
